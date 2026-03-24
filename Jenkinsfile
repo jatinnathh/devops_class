@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         DOCKER_USER = "jatinnath2023bcd0014"
-        REGISTER = "2023BCD0014"
-        ROLL = "2023BCD0014"
+        REGISTER = "2023bcd0014"
+        ROLL = "2023bcd0014"
 
         BACKEND_IMAGE = "${DOCKER_USER}/${REGISTER}_${ROLL}_backend"
         FRONTEND_IMAGE = "${DOCKER_USER}/${REGISTER}_${ROLL}_frontend"
