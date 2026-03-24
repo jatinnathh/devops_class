@@ -12,11 +12,7 @@ pipeline {
 
     stages {
 
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/jatinnathh/devops_class.git'
-            }
-        }
+       
 
         stage('Build Backend Image') {
             steps {
