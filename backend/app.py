@@ -1,6 +1,8 @@
 from flask import Flask, jsonify
+from flask_cors import CORS   # 👈 ADD THIS
 
 app = Flask(__name__)
+CORS(app)  
 
 @app.route('/student-details', methods=['GET'])
 def student_details():
